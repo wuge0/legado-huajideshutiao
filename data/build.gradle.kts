@@ -579,7 +579,7 @@ dependencies {
         add("kspIosSimulatorArm64", project(":modules:quickjs-processor"))
     }
     if (enableOhosTarget) {
-        add("kspOhosArm64", "androidx.room3:room3-compiler:3.0.0-alpha01")
+        add("kspOhosArm64", "androidx.room3:room3-compiler:3.0.3")
         add("kspOhosArm64", project(":modules:quickjs-processor"))
     }
 }
