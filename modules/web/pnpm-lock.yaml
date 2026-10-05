@@ -49,8 +49,8 @@ importers:
         specifier: ^14.0.1
         version: 14.9.0(eslint-plugin-vue@9.33.0(eslint@9.39.5(supports-color@8.1.1))(supports-color@8.1.1))(eslint@9.39.5(supports-color@8.1.1))(supports-color@8.1.1)(typescript@5.5.4)
       '@vue/tsconfig':
-        specifier: ^0.5.1
-        version: 0.5.1
+        specifier: ^0.9.0
+        version: 0.9.1(typescript@5.5.4)(vue@3.5.42(typescript@5.5.4))
       eslint:
         specifier: ^9.12.0
         version: 9.39.5(supports-color@8.1.1)
@@ -715,8 +715,16 @@ packages:
   '@vue/shared@3.5.42':
     resolution: {integrity: sha512-2rPxex1jQf4jvl9MOHl6YaXCPcrNqz/FstMOEh3QWY+/OME9nQTvl9WYeCwhW7AFjaR0SnngZGlp/wkR6rkI6g==}
 
-  '@vue/tsconfig@0.5.1':
-    resolution: {integrity: sha512-VcZK7MvpjuTPx2w6blwnwZAu5/LgBUtejFOi3pPGQFXQN5Ela03FUtd2Qtg4yWGGissVL0dr6Ro1LfOFh+PCuQ==}
+  '@vue/tsconfig@0.9.1':
+    resolution: {integrity: sha512-buvjm+9NzLCJL29KY1j1991YYJ5e6275OiK+G4jtmfIb+z4POywbdm0wXusT9adVWqe0xqg70TbI7+mRx4uU9w==}
+    peerDependencies:
+      typescript: '>= 5.8'
+      vue: ^3.4.0
+    peerDependenciesMeta:
+      typescript:
+        optional: true
+      vue:
+        optional: true
 
   '@vueuse/core@11.3.0':
     resolution: {integrity: sha512-7OC4Rl1f9G8IT6rUfi9JrKiXy4bfmHhZ5x2Ceojy0jnd3mHNEvV4JaRygH362ror6/NZ+Nl+n13LPzGiPN8cKA==}
@@ -2216,7 +2224,10 @@ snapshots:
 
   '@vue/shared@3.5.42': {}
 
-  '@vue/tsconfig@0.5.1': {}
+  '@vue/tsconfig@0.9.1(typescript@5.5.4)(vue@3.5.42(typescript@5.5.4))':
+    optionalDependencies:
+      typescript: 5.5.4
+      vue: 3.5.42(typescript@5.5.4)
 
   '@vueuse/core@11.3.0(vue@3.5.42(typescript@5.5.4))':
     dependencies:
