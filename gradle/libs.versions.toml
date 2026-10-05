@@ -109,7 +109,7 @@ hutool = "5.8.22"
 # classpath, hutool SecureUtil 会经 GlobalBouncyCastleProvider 用 BC 的 RSA Cipher,
 # 触发分段加密 → 网易云 weapi 全部 200 空体。如需 PKCS7Padding 请走 PKCS7→PKCS5 字节级
 # 等价替换 (SymmetricCryptoAndroid.normalizePkcs7Padding), 不要再加回 bcprov。
-bouncycastle = "1.79"
+bouncycastle = "1.86"
 quickChineseTransfer = "0.2.16"
 
 # ===== 嵌入式服务 / JSON =====
