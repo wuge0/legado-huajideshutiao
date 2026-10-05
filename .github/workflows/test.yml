@@ -71,7 +71,7 @@ jobs:
           distribution: 'temurin'
           java-version: 21
       - name: Set up Gradle
-        uses: gradle/actions/setup-gradle@v5
+        uses: gradle/actions/setup-gradle@v6
       - name: Gradle build-cache 共享
         # 按 (OS, 分支) 共享 build-cache, 减少各 job 重复编译 shared 等公共模块
         uses: actions/cache@v5
