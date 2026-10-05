@@ -84,7 +84,7 @@ okhttp = "5.4.0"
 okio = "3.18.1"
 kmp-zip = "0.12.1"
 epub4kmp = "0.3.0"
-ktor = "3.5.2"
+ktor = "3.6.0"
 cronet = "143.7445.0"
 coil3 = "3.4.0"
 
