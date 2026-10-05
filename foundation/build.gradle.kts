@@ -62,7 +62,7 @@ kotlin {
                 api(libs.okhttp)
                 implementation(libs.androidx.documentfile)
                 // FileUtilsBase 的 androidx.annotation.IntDef (documentfile 不传递 annotation)
-                implementation("androidx.annotation:annotation:1.9.1")
+                implementation("androidx.annotation:annotation:1.11.0")
             }
         }
         jvmMain {
@@ -73,7 +73,7 @@ kotlin {
                 // epublib 的 XmlSerializer (org.xmlpull.v1) 在 JVM 侧由 kxml2 提供
                 implementation(libs.kxml2)
                 // FileUtilsBase 的 androidx.annotation.IntDef (JVM 侧无 documentfile 传递)
-                implementation("androidx.annotation:annotation:1.9.1")
+                implementation("androidx.annotation:annotation:1.11.0")
             }
         }
         // iOS+鸿蒙 非 UI 公共层 (utils/constant 等的 posix 实现)
