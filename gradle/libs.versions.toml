@@ -53,7 +53,7 @@ atomicfu = "0.33.0"
 slf4jNop = "2.0.18"
 
 # ===== AndroidX / Google 官方库 =====
-core = "1.18.0"
+core = "1.19.1"
 appcompat = "1.7.1"
 activity = "1.13.0"
 fragment = "1.8.9"
