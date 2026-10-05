@@ -96,7 +96,7 @@ androidsvg = "1.4"
 
 # ===== 压缩 / 文档格式 =====
 commonsCompress = "1.28.0"
-junrar = "8.1.0"
+junrar = "8.1.1"
 xz = "1.12"
 pdfbox = "3.0.8"
 
