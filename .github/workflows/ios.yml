@@ -73,7 +73,7 @@ jobs:
         uses: gradle/actions/setup-gradle@v5
       - name: Gradle build-cache 共享
         # 按 (OS, 分支) 共享 build-cache, 减少与桌面 macOS 腿重复编译 shared
-        uses: actions/cache@v5
+        uses: actions/cache@v6
         with:
           path: ~/.gradle/caches/build-cache-1
           key: gradle-buildcache-${{ runner.os }}-${{ github.ref_name }}
@@ -105,7 +105,7 @@ jobs:
 
       # Kotlin/Native 工具链 (~1GB) 缓存, 省掉每轮重新下载
       - name: Cache Kotlin/Native toolchain
-        uses: actions/cache@v5
+        uses: actions/cache@v6
         with:
           path: ~/.konan
           key: konan-${{ runner.os }}-${{ hashFiles('gradle/libs.versions.toml') }}
@@ -115,7 +115,7 @@ jobs:
       - name: Cache iOS native static libs
         id: cache-native
         if: inputs.stage != 'klib'
-        uses: actions/cache@v5
+        uses: actions/cache@v6
         with:
           path: data/build/iosNativeLibs
           key: ios-native-${{ runner.os }}-${{ hashFiles('modules/quickjs/src/main/cinterop/quickjs-ng/**', 'data/src/cinterop/mbedtls/**', 'scripts/build-ios-native.sh') }}
