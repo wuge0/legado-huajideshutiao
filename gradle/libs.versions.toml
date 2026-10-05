@@ -27,7 +27,7 @@ mediamp = "0.3.0"
 # CMP 1.10.x ↔ 2.9.4)。Android target 不再单独钉 androidx foundation:
 # CMP 1.11.1 的安卓映射即 androidx foundation 1.11.2 (含 1.11 的 ActionMode
 # SelectionContainer 复制后闪"仅全选"过渡帧修复), 桌面/安卓同基线。
-lifecycleMultiplatform = "2.10.0"
+lifecycleMultiplatform = "2.11.0"
 
 # ===== 鸿蒙 (CPF fork) 专属版本 =====
 # 默认工具链跟随 Android/iOS/JVM 依赖的 KLIB ABI; OHOS 通过 enableOhosTarget
