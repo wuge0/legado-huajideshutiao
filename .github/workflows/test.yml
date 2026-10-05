@@ -136,7 +136,7 @@ jobs:
       - name: Post (原包名) to Telegram
         # 时序在共存构建前: 此时 apk/ 仅含原包名产物, 通配不会带出共存包
         if: github.event_name != 'pull_request' && needs.prepare.outputs.telegram == 'yes'
-        uses: xireiki/channel-post@v1
+        uses: xireiki/channel-post@v2
         with:
           chat_id: ${{ secrets.CHANNEL_ID }}
           bot_token: ${{ secrets.BOT_TOKEN }}
@@ -177,7 +177,7 @@ jobs:
 
       - name: Post (共存) to Telegram
         if: github.event_name != 'pull_request' && needs.prepare.outputs.telegram == 'yes'
-        uses: xireiki/channel-post@v1
+        uses: xireiki/channel-post@v2
         with:
           chat_id: ${{ secrets.CHANNEL_ID }}
           bot_token: ${{ secrets.BOT_TOKEN }}
