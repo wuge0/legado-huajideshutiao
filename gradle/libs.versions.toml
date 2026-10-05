@@ -82,7 +82,7 @@ uiautomator = "2.4.0"
 # ===== 网络栈 =====
 okhttp = "5.4.0"
 okio = "3.18.1"
-kmp-zip = "0.12.1"
+kmp-zip = "1.0.0"
 epub4kmp = "0.3.0"
 ktor = "3.5.2"
 cronet = "143.7445.0"
