@@ -50,7 +50,7 @@ stately-ohos = "2.1.0-0.4.0"
 coroutines = "1.11.0"
 kotlinxSerializationJson = "1.11.0"
 atomicfu = "0.33.0"
-slf4jNop = "2.0.18"
+slf4jNop = "2.0.20"
 
 # ===== AndroidX / Google 官方库 =====
 core = "1.18.0"
