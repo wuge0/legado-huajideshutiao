@@ -174,7 +174,7 @@ jobs:
 
       - name: Create Pull Request
         if: inputs.mode == 'sync' && steps.diff.outputs.changed == '1'
-        uses: peter-evans/create-pull-request@v6
+        uses: peter-evans/create-pull-request@v8
         with:
           branch: "chore/sync-quickjs-ng-${{ inputs.ref }}"
           delete-branch: true
