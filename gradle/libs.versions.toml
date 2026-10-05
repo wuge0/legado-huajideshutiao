@@ -101,7 +101,7 @@ xz = "1.12"
 pdfbox = "3.0.8"
 
 # ===== JS 引擎 / 加密 / 简繁转换 =====
-hutool = "5.8.22"
+hutool = "5.8.47"
 # 桌面端 JVM 用: SunJCE 无 PKCS7Padding, 书源 java.createSymmetricCrypto('AES/CBC/PKCS7Padding')
 # 在桌面端报 "Cannot find any provider supporting AES/CBC/PKCS7Padding"; bcprov (Oracle 签名,
 # 通过 JCE provider 认证) 补齐 PKCS7Padding/SM4/RC4 等算法。版本与本地 gradle 缓存一致。
