@@ -62,7 +62,7 @@ jobs:
       VERSION: ${{ needs.prepare.outputs.version }}
       GRADLE_ARGS: --build-cache --parallel --daemon --warning-mode all
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v7
         with:
           fetch-depth: 0
       - name: Set up JDK 21

@@ -39,7 +39,7 @@ jobs:
     permissions:
       contents: read
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v7
         with:
           # syncIosVersion 用 git rev-list HEAD --count 算 versionCode,
           # shallow 下恒为 1 (与 test.yml 同款取版本方式, 两边必须一致)
