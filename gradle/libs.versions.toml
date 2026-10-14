@@ -4,7 +4,7 @@ agp = "9.4.1"
 kotlin = "2.3.20"
 # KSP2 与 Kotlin 版本解耦; 2.2.21-2.0.4 的 KSP1 在 KMP expect/actual 上会抛
 # "Unexpected symbol type null", 必须用 2.3.x 的 KSP2。
-ksp = "2.3.11"
+ksp = "2.3.12"
 
 # ===== Compose Multiplatform (Android/桌面共用基线) =====
 cmp = "1.11.1"
