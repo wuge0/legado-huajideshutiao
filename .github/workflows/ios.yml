@@ -244,7 +244,7 @@ jobs:
 
       - name: Upload simulator artifact
         if: inputs.stage == 'simulator'
-        uses: actions/upload-artifact@v6
+        uses: actions/upload-artifact@v7
         with:
           name: ios-simulator
           path: ${{ github.workspace }}/iosApp/build/*-ios-simulator.zip
@@ -296,7 +296,7 @@ jobs:
 
       - name: Upload IPA artifact
         if: inputs.stage == 'ipa'
-        uses: actions/upload-artifact@v6
+        uses: actions/upload-artifact@v7
         with:
           name: ios-ipa-unsigned
           path: ${{ github.workspace }}/iosApp/build/ipa/*.ipa
@@ -314,7 +314,7 @@ jobs:
 
       - name: Upload logs
         if: always()
-        uses: actions/upload-artifact@v6
+        uses: actions/upload-artifact@v7
         with:
           name: ios-build-logs
           path: |

@@ -129,7 +129,7 @@ jobs:
       # 发布在 publish job (_publish.yml), 这里只把更新日志传上去
       - name: Upload Release Notes
         if: github.event_name != 'pull_request'
-        uses: actions/upload-artifact@v6
+        uses: actions/upload-artifact@v7
         with:
           name: release-notes
           path: RELEASE_NOTES.md
@@ -162,7 +162,7 @@ jobs:
 
       # 两个变体构建完后一次上传 (原包名 + 共存), 不再分两次
       - name: Upload Artifacts (原包名 + 共存)
-        uses: actions/upload-artifact@v6
+        uses: actions/upload-artifact@v7
         with:
           name: ${{ env.product }}.apk
           path: apk/*.apk

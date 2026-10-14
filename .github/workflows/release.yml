@@ -128,14 +128,14 @@ jobs:
 
       # 发布在 publish job (_publish.yml), 这里只把产物与更新日志传上去
       - name: Upload Release Notes
-        uses: actions/upload-artifact@v6
+        uses: actions/upload-artifact@v7
         with:
           name: release-notes
           path: RELEASE_NOTES.md
           if-no-files-found: ignore
 
       - name: Upload Artifacts (原包名 + 共存)
-        uses: actions/upload-artifact@v6
+        uses: actions/upload-artifact@v7
         with:
           name: ${{ env.product }}.apk
           path: apk/*.apk
