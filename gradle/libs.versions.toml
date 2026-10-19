@@ -7,7 +7,7 @@ kotlin = "2.3.20"
 ksp = "2.3.11"
 
 # ===== Compose Multiplatform (Android/桌面共用基线) =====
-cmp = "1.11.1"
+cmp = "1.12.2"
 # 官方 CMP 版本 (与 cmp 非鸿蒙值同源): 鸿蒙模式 settings 把 cmp 切到 CPF fork (无 jvm 变体),
 # 而引用 compose runtime 注解的 commonMain 代码 (:data AnimeFilterList 的 @Stable) 需要
 # android/jvm 变体齐全的官方构件; ohos 配置由 OhosTargetConventionPlugin 替换为 fork 版
