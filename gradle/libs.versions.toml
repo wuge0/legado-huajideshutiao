@@ -19,7 +19,7 @@ composeMultiplatform-jvm = "1.11.1"
 # 拉入 CMP foundation 1.12.0 触发 plugin 版本不匹配警告。
 # 解锁条件: 项目迁移 Kotlin 2.4.x 工具链 (连带 CMP 1.12 / KSP 2.4; 注意 ohos fork 模式
 # 钉在 Kotlin 2.2.21-0.5.0, 需 fork 侧同步跟进)。到时直接上 0.45.0 (含 0.43/0.44 全部修复)。
-multiplatformMarkdown = "0.41.0"
+multiplatformMarkdown = "0.46.0"
 # coil 3.4.0 = iOS klib 兼容 Kotlin 2.3.20 的最高版本 (3.5.0+ 的 iOS klib 为 Kotlin 2.4 ABI)。
 # coil 传递的 skiko (0.9.22.2) 远旧于 CMP 1.11.1 的 skiko (0.144.6); skiko 版本归 CMP 拥有,
 # 由 legado.compose 约定插件的 ComponentMetadataRule 统一剔除 coil3 组件元数据中的 skiko 依赖。
