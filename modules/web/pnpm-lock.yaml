@@ -21,8 +21,8 @@ importers:
         specifier: ^2.2.4
         version: 2.3.1(typescript@5.5.4)(vue@3.5.42(typescript@5.5.4))
       vite-plugin-singlefile:
-        specifier: ^2.3.3
-        version: 2.3.3(rollup@4.63.1)(vite@5.4.21(@types/node@20.19.43)(sass-embedded@1.104.0)(sass@1.104.0))
+        specifier: ^2.3.4
+        version: 2.3.4(rollup@4.63.1)(vite@5.4.21(@types/node@20.19.43)(sass-embedded@1.104.0)(sass@1.104.0))
       vue:
         specifier: ^3.5.12
         version: 3.5.42(typescript@5.5.4)
@@ -1571,8 +1571,8 @@ packages:
   varint@6.0.0:
     resolution: {integrity: sha512-cXEIW6cfr15lFv563k4GuVuW/fiwjknytD37jIOLSdSWuOI6WnO/oKwmP2FQTU2l01LP8/M5TSAJpzUaGe3uWg==}
 
-  vite-plugin-singlefile@2.3.3:
-    resolution: {integrity: sha512-XVnGH0QzbOa8fxRSsHdCarVN1BSBXNi7uLMQYlrGRN5apdHkk62XQWRJhVever0lnfuyBkwn+kvVChdm/OoOUg==}
+  vite-plugin-singlefile@2.3.4:
+    resolution: {integrity: sha512-1FAhlTCL6KJDpSUudrVU+gspapvS+tmKCg70vwNaAU6tyXn3E/C6+NnwQIze06byhBRv7VggZ78K0h+J/Rsdrg==}
     engines: {node: '>18.0.0'}
     peerDependencies:
       rollup: ^4.59.0
@@ -3086,9 +3086,9 @@ snapshots:
 
   varint@6.0.0: {}
 
-  vite-plugin-singlefile@2.3.3(rollup@4.63.1)(vite@5.4.21(@types/node@20.19.43)(sass-embedded@1.104.0)(sass@1.104.0)):
+  vite-plugin-singlefile@2.3.4(rollup@4.63.1)(vite@5.4.21(@types/node@20.19.43)(sass-embedded@1.104.0)(sass@1.104.0)):
     dependencies:
-      micromatch: 4.0.8
+      picomatch: 4.0.7
       vite: 5.4.21(@types/node@20.19.43)(sass-embedded@1.104.0)(sass@1.104.0)
     optionalDependencies:
       rollup: 4.63.1
