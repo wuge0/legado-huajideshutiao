@@ -84,7 +84,7 @@ espresso = "3.7.0"
 uiautomator = "2.4.0"
 
 # ===== 网络栈 =====
-okhttp = "5.4.0"
+okhttp = "5.5.1"
 gson = "2.11.0"
 okio = "3.18.1"
 kmp-zip = "0.12.1"
