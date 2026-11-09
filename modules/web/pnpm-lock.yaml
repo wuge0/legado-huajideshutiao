@@ -15,8 +15,8 @@ importers:
         specifier: ^11.1.0
         version: 11.3.0(vue@3.5.42(typescript@5.5.4))
       hotkeys-js:
-        specifier: ^3.13.7
-        version: 3.13.15
+        specifier: ^4.1.2
+        version: 4.1.2
       pinia:
         specifier: ^2.2.4
         version: 2.3.1(typescript@5.5.4)(vue@3.5.42(typescript@5.5.4))
@@ -1043,8 +1043,8 @@ packages:
     resolution: {integrity: sha512-F/1DnUGPopORZi0ni+CvrCgHQ5FyEAHRLSApuYWMmrbSwoN2Mn/7k+Gl38gJnR7yyDZk6WLXwiGod1JOWNDKGw==}
     hasBin: true
 
-  hotkeys-js@3.13.15:
-    resolution: {integrity: sha512-gHh8a/cPTCpanraePpjRxyIlxDFrIhYqjuh01UHWEwDpglJKCnvLW8kqSx5gQtOuSsJogNZXLhOdbSExpgUiqg==}
+  hotkeys-js@4.1.2:
+    resolution: {integrity: sha512-SXPG2KJ4AW0wyZwh7lBtBavfbunm78kcTqjc2b7TXe7bkyKwDJDlByXbMoGiNrhRkONfdzNg6KqRc3PKBj6tfQ==}
 
   ignore@5.3.2:
     resolution: {integrity: sha512-hsBTNUqQTDwkWtcdYI2i06Y/nUBEsNEDJKjWdigLvegy8kDuJAS8uRlpkkcQpyEXL0Z/pjDy5HBmMjRCJ2gq+g==}
@@ -2575,7 +2575,7 @@ snapshots:
 
   he@1.2.0: {}
 
-  hotkeys-js@3.13.15: {}
+  hotkeys-js@4.1.2: {}
 
   ignore@5.3.2: {}
 
